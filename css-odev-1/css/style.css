@@ -1,0 +1,60 @@
+
+h1
+{
+  color: red;
+  font-size: 60px;
+  text-shadow: 2px 2px black;
+}
+
+body {
+  
+  background-image: url('/images/arkaplan.png');
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed
+  font-family: "Quicksand", sans-serif;
+
+
+}
+
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+}
+
+
+.menü li
+{
+  float:left;
+  margin:5px;
+}
+
+.menü a
+{
+  text-decoration:none;
+  color:rgb(0, 102, 95);
+  font-weight:bold;
+  border:2px solid rgb(82, 153, 0);
+  background:rgb(247, 244, 247);
+  width:130px;
+  display:block;
+  line-height:30px;
+  padding:7px;
+  
+}
+/*
+.menü a:hover
+{
+  margin-top:5px;
+  border-top:5px 
+}
+*/
+
+
